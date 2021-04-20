@@ -76,7 +76,7 @@ app.post('/addService', (req, res) => {
       })
 })
 
-app.get('/doctors', (req, res) => {
+app.get('/services', (req, res) => {
   serviceCollection.find({})
       .toArray((err, documents) => {
           res.send(documents);

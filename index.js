@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use(express.static('services'));
-app.use(fileUpload());
+
 
 
 
